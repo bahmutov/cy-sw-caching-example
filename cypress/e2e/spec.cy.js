@@ -8,11 +8,6 @@ import 'cypress-cdp'
 // simply bypass the service worker
 // when requesting the network resources
 // including the next spec run
-beforeEach(() => {
-  cy.CDP('Network.setBypassServiceWorker', {
-    bypass: true,
-  })
-})
 
 it('loads the updated test script', () => {
   cy.visit('/')
