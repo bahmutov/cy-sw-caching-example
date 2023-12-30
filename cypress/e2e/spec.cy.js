@@ -13,11 +13,3 @@ it('loads the updated test script', () => {
 // delete the service worker to stop using
 // the cached version on the next test run
 // Tip: you must enable ServiceWorker CDP module
-after(() => {
-  const scopeURL = Cypress.config('baseUrl')
-  cy.CDP('ServiceWorker.enable')
-  cy.CDP('ServiceWorker.stopAllWorkers')
-  cy.CDP('ServiceWorker.unregister', {
-    scopeURL,
-  })
-})
