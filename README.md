@@ -8,3 +8,4 @@ Used as an example for lessons in [Cypress Network Testing Exercises](https://cy
 
 - [Bonus 120: Remove the cached spec from the ServiceWorker cache](https://cypress.tips/courses/network-testing/lessons/bonus120)
 - [Bonus 121: Unregister ServiceWorker](https://cypress.tips/courses/network-testing/lessons/bonus121)
+- [Bonus 122: Bypass the SW for network](https://cypress.tips/courses/network-testing/lessons/bonus122)
